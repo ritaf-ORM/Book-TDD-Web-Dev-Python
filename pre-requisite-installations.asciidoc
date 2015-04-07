@@ -99,6 +99,10 @@ The pip Python package management tool::
     it may be `pip-3.4` or `pip-3.3`. Have a look at the detailed notes for
     each operating system for more info.
 
+NOTE: If you're stuck on Django 1.7 for whatever reason, you'll be able to 
+    follow along just fine -- the differences as pertains to this tutorial
+    are negligible.
+
 
 .Windows Notes
 *******************************************************************************
