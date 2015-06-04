@@ -3,6 +3,7 @@
 Tutorial Handout
 ----------------
 
+
 image::images/cover-smaller.png[]
 
 http://www.obeythetestinggoat.com/[www.obeythetestinggoat.com]
