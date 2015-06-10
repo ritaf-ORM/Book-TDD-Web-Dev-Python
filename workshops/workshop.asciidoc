@@ -1,23 +1,18 @@
 = WELCOME TO THE TEST-DRIVEN-DJANGO WORKSHOP
 = Required installations
  - Python 3, Git, Firefox
- - Django (`sudo pip3 install django==1.7`)
+ - Django (`sudo pip3 install django==1.8`)
  - Selenium (`sudo pip3 install --upgrade selenium`)
-Don't use a virtualenv unless you 'really' know what you're doing. USB keys have installers for everything.
-
+Don't use a virtualenv unless you 'really' know what you're doing
 * Handout: http://www.obeythetestinggoat.com/static/tdd-workshop.zip (Also on USB key)
 * If you're a *beginner*, makes sure you sit next to someone more experienced
 
-= Checking it all works
-
     $ python3
     Python 3.x.x (default, Feb 28 2014, 00:52:16) 
-    [...]
     >>> import django
-    >>> print( django.get_version() )
-    1.7.x
+    >>> print( django.get_version() ) # 1.8.x
     >>> from selenium import webdriver
-    >>> browser = webdriver.Firefox()  # will pop up a firefox window
+    >>> browser = webdriver.Firefox()  # will start firefox 
     >>> browser.get('http://www.google.com')
     >>> print(browser.title)  # this should say "Google"
     Google
